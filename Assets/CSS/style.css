@@ -1,0 +1,79 @@
+body {
+    background-image: url("../bananas.png"); 
+}
+h1 {
+    border: 1px orange solid;
+    padding: 20px 0;
+    color: white;
+    background-color: orange;
+    width: 260px;
+}
+#rules {
+    border: 1px bisque solid;
+    color:forestgreen;
+    background-color: bisque;
+    width: 395px;
+    padding: 20px 8px 100px;
+}
+#randomNumber {
+    border: 1px mediumseagreen solid;
+    background-color:mediumseagreen;
+    color: purple;
+    font-size: 40px;
+    margin-top: 15px;
+    width: 200px;
+    padding: 0 20px 80px 0;
+}
+.blank {
+    width: 20px;
+
+}
+#tally {
+    border: 1px aqua solid;
+    background-color:aqua;
+    margin-top: 15px;
+    padding: 20 0 60px 0;
+    width: 80px;
+}
+#score {
+    border: 1px teal solid;
+    background-color: teal;
+    color: white;
+    padding: 4px 50px 4px 2px;
+    width: 200px; 
+}
+#addedScore {
+    margin-top: 15px;
+    border: 1px teal solid;
+    background-color: teal;
+    color: white;
+    font-size: 40px;
+    padding: 4px 50px 80px 2px;
+    width: 200px;
+}
+.box {
+    border: 1px red solid;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.images {
+    width: 150px;
+    height: 130px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#image1 {
+    float: left
+}
+#image2 {
+    float: left
+}
+#image3 {
+    float: left
+}
+.container1 {
+    display: flex;
+    padding-right: 200px
+}

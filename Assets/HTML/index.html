@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Crystal Collector</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <script src="../Javascript/game.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Crystal Collector !</h1>
+        </div>
+        <div>
+            <div id="rules" class="container">
+                <div class="row">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of total points to you score.</p> 
+                    <p>You win the game by matching your toal score to the random number, you lose if your total score goes above the random number.</p> 
+                    <p>The value of the crystal is hidden from you until you click on it.</p> 
+                    <p>Each time when the game starts, the game will change the value of each crystal</p>
+                </div>
+            </div>
+        </div>
+        <div  class="container1">
+            <div id="randomNumber" class="randomNumber">
+                <script> 
+                document.write(randomNumber)
+                </script>
+            </div>
+            <div class="blank"></div>
+            <div id="tally" class="tally">
+                Wins: <p id="wins"></p>
+                Losses: <p id="losses"></p>
+            </div>
+        </div>
+        <div class="container">
+            <div id="image1" onclick="image1Function()">
+                <img class="images" src="../images/41pBvHb5mEL._AC_SY400_.jpg"> 
+            </div>
+            <div id="image2" onclick="image2Function()">
+                    <img class="images" src="../images/Diamond_Beveled_Gemstone_Birthstone_Jewel_Cartoon_-_Emerald_Green_521465848_grande.jpg">
+            </div>
+            <div id="image3" onclick="image3Function()">
+                <img class="images" src="../images/Square_Cushion_Beveled_Gemstone_Birthstone_Jewel_Cartoon_-_Blue_Topaz_521466018_grande.jpg">
+            </div>
+            <div id="image4"onclick="image4Function()">   
+                <img class="images" src="../images/diamond-308079_960_720.png">
+            </div>
+        <div class="container">
+            <div id="score" class="row">
+                Your total score is:
+            </div>
+            <div id="addedScore" class="row">
+                0
+            </div>
+        </div>
+    </body>
+</html>
